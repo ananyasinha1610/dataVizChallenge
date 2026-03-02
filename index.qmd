@@ -8,8 +8,6 @@ execute:
   eval: true
 ---
 
-# 🎯 Object-Oriented Matplotlib Challenge - The Four Stages of Data Visualization
-
 ::: {.callout-important}
 ## 📊 Challenge Requirements
 - Complete all discussion questions for the four stages of visualization
@@ -32,6 +30,59 @@ execute:
 This challenge pushes boundaries intentionally. You'll tackle problems that normally require weeks of study, but with Cursor AI as your partner (and your brain keeping it honest), you can accomplish more than you thought possible.
 
 **The new reality:** The four stages of competence are Ignorance → Awareness → Learning → Mastery. AI lets us produce Mastery-level work while operating primarily in the Awareness stage. I focus on awareness training, you leverage AI for execution, and together we create outputs that used to require years of dedicated study.
+:::
+
+## Getting Started: Repository Setup
+
+::: {.callout-important}
+## 📁 Getting Started
+
+**Step 1:** Fork and clone this challenge repository: `https://github.com/flyaflya/dataVizChallenge.git`
+
+- View the original challenge page: <https://flyaflya.github.io/dataVizChallenge/>
+- Fork it to your GitHub account, then clone it from your GitHub account to your local machine
+
+**Step 2:** Set up your Python environment
+
+- **Recommended:** Use your existing virtual environment from Tech Setup Challenge Part 2
+  - Press `Ctrl+Shift+P` → "Python: Select Interpreter"
+  - Navigate to your existing virtual environment (e.g., `your-previous-project/venv/Scripts/python.exe`)
+  - Install additional packages: `pip install pandas numpy matplotlib seaborn`
+- **Alternative:** Create a new virtual environment following [Quarto documentation](https://quarto.org/docs/projects/virtual-environments.html)
+
+**Step 3:** You're ready to start! The data loading code and starter code for the visualizations are already provided in this file.
+
+**Note:** This challenge uses the same `index.qmd` file you're reading right now - you'll edit it to complete your analysis.
+
+**Before publishing:** Remove or comment out the "Getting Started" and "Grading and Submission" sections from your final GitHub Pages version so your published page reads as a cohesive Coors Field analysis story.
+:::
+
+::: {.callout-warning}
+## ⚠️ Cloud Storage Warning
+
+**Avoid using Google Drive, OneDrive, or other cloud storage for Python projects!** These services can cause issues with package installations and virtual environment corruption. Keep your Python projects in a local folder like `C:\Users\YourName\Documents\` instead.
+:::
+
+::: {.callout-warning}
+## 💾 Important: Save Your Work Frequently!
+
+**Before you start:** Make sure to commit your work often using the Source Control panel in Cursor (Ctrl+Shift+G or Cmd+Shift+G). This prevents the AI from overwriting your progress and ensures you don't lose your work.
+
+**Commit after each major step:**
+
+- After completing each stage section
+- After adding your visualizations
+- After completing your advanced object-oriented techniques
+- Before asking the AI for help with new code
+
+**How to commit:**
+
+1. Open Source Control panel (Ctrl+Shift+G)
+2. Stage your changes (+ button)
+3. Write a descriptive commit message
+4. Click the checkmark to commit
+
+*Remember: Frequent commits are your safety net!*
 :::
 
 ## The Four Stages of Data Visualization
@@ -352,88 +403,24 @@ comparison_data = pd.merge(
 - Show mastery of object-oriented matplotlib
 - Do not `echo` the code that creates the visualizations
 
-## Getting Started: Repository Setup 🚀
+## Grading and Submission
 
-::: {.callout-important}
-## 📁 Getting Started
+**Submission Checklist:**
 
-**Step 1:** Fork and clone this challenge repository: `https://github.com/flyaflya/dataVizChallenge`
-- Fork it to your GitHub account, then clone it from your GitHub account to your local machine
+- [ ] Fork repository to your GitHub account
+- [ ] Clone locally using Cursor (or VS Code)
+- [ ] Complete discussion questions
+- [ ] Render document to HTML successfully
+- [ ] Push HTML files to your repository
+- [ ] Enable GitHub Pages
+- [ ] Verify site at `https://[your-username].github.io/dataVizChallenge/`
 
-**Step 2:** Set up your Python environment
-- **Recommended:** Use your existing virtual environment from Tech Setup Challenge Part 2
-  - Press `Ctrl+Shift+P` → "Python: Select Interpreter"
-  - Navigate to your existing virtual environment (e.g., `your-previous-project/venv/Scripts/python.exe`)
-  - Install additional packages: `pip install pandas numpy matplotlib seaborn`
-- **Alternative:** Create a new virtual environment following [Quarto documentation](https://quarto.org/docs/projects/virtual-environments.html)
+**Grading:**
 
-**Step 3:** You're ready to start! The data loading code and starter code for the visualizations are already provided in this file.
+| Grade | Requirements |
+|-------|--------------|
+| Minimum | Discussion questions for at least 3 of 4 stages; working GitHub Pages site |
+| 85% | All 4 stages with comprehensive, well-reasoned responses |
+| 100% | All discussion questions plus professional visualizations demonstrating mastery |
 
-**Note:** This challenge uses the same `index.qmd` file you're reading right now - you'll edit it to complete your analysis.
-:::
-
-::: {.callout-warning}
-## ⚠️ Cloud Storage Warning
-
-**Avoid using Google Drive, OneDrive, or other cloud storage for Python projects!** These services can cause issues with package installations and virtual environment corruption. Keep your Python projects in a local folder like `C:\Users\YourName\Documents\` instead.
-:::
-
-::: {.callout-note}
-## 🎯 Object-Oriented Matplotlib Philosophy
-
-*Think of object-oriented matplotlib like directing a movie - you control every element (camera angles, lighting, actors) to create the perfect scene that tells your story.*
-:::
-
-::: {.callout-warning}
-## 💾 Important: Save Your Work Frequently!
-
-**Before you start:** Make sure to commit your work often using the Source Control panel in Cursor (Ctrl+Shift+G or Cmd+Shift+G). This prevents the AI from overwriting your progress and ensures you don't lose your work.
-
-**Commit after each major step:**
-- After completing each stage section
-- After adding your visualizations
-- After completing your advanced object-oriented techniques
-- Before asking the AI for help with new code
-
-**How to commit:**
-1. Open Source Control panel (Ctrl+Shift+G)
-2. Stage your changes (+ button)
-3. Write a descriptive commit message
-4. Click the checkmark to commit
-
-*Remember: Frequent commits are your safety net!*
-:::
-
-## Grading Rubric 🎓
-
-**85% Grade:** Complete discussion questions for all 4 stages with comprehensive, well-reasoned responses.
-
-**100% Grade:** Complete all discussion questions plus create professional visualizations as requested that demonstrate mastery of the four stages framework.
-
-## Submission Checklist ✅
-
-**Minimum Requirements (Required for Any Points):**
-
-- [ ] Fork repository named "dataVizChallenge" to your GitHub account
-- [ ] Clone repository locally using Cursor (or VS Code)
-- [ ] Completed discussion questions for at least 3 of the 4 stages
-- [ ] Document rendered to HTML successfully
-- [ ] HTML files uploaded to your repository
-- [ ] GitHub Pages enabled and working
-- [ ] Site accessible at `https://[your-username].github.io/dataVizChallenge/`
-
-**85% Grade Requirements:**
-
-- [ ] Complete discussion questions for all 4 stages
-- [ ] Comprehensive, well-reasoned responses showing deep understanding
-
-**100% Grade Requirements:**
-
-- [ ] All discussion questions completed with professional quality
-- [ ] Professional visualization as requested demonstrating four stages framework
-
-**Report Quality (Critical for Higher Grades):**
-
-- [ ] Professional writing style (no AI-generated fluff)
-- [ ] Concise analysis that gets to the point
-- [ ] Clear demonstration of object-oriented matplotlib 
+**Report Quality:** Professional writing, concise analysis, clear demonstration of object-oriented matplotlib.
